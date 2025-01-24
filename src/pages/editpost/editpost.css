@@ -1,0 +1,30 @@
+/* Default padding */
+.responsive-padding {
+    padding-top: 1rem; /* 4 units */
+    padding-bottom: 1rem;
+  }
+  
+  /* Small screens (min-width: 640px) */
+  @media (min-width: 640px) {
+    .responsive-padding {
+      padding-top: 1.5rem; /* 6 units */
+      padding-bottom: 1.5rem;
+    }
+  }
+  
+  /* Medium screens (min-width: 768px) */
+  @media (min-width: 768px) {
+    .responsive-padding {
+      padding-top: 2rem; /* 8 units */
+      padding-bottom: 2rem;
+    }
+  }
+  
+  /* Large screens (min-width: 1024px) */
+  @media (min-width: 1024px) {
+    .responsive-padding {
+      padding-top: 3rem; /* 12 units */
+      padding-bottom: 3rem;
+    }
+  }
+  

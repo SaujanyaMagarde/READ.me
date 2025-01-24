@@ -1,0 +1,33 @@
+.signo {
+    padding-top: 2rem; /* Default padding for small devices */
+    padding-bottom: 2rem;
+  }
+  
+  @media (min-width: 640px) { /* Equivalent to Tailwind's "sm" breakpoint */
+    .signo {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 768px) { /* Equivalent to Tailwind's "md" breakpoint */
+    .signo {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+  
+  @media (min-width: 1024px) { /* Equivalent to Tailwind's "lg" breakpoint */
+    .signo {
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+    }
+  }
+  
+  @media (min-width: 1280px) { /* Equivalent to Tailwind's "xl" breakpoint */
+    .signo {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
+  

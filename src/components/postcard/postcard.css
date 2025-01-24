@@ -1,0 +1,44 @@
+/* Styles for the PostCard component */
+
+.post-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-card {
+    width: 100%;
+    background-color: #f3f4f6; /* Equivalent to Tailwind's bg-gray-100 */
+    border-radius: 12px; /* Equivalent to Tailwind's rounded-xl */
+    padding: 16px; /* Equivalent to Tailwind's p-4 */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    margin-bottom: 16px; /* Equivalent to Tailwind's mb-4 */
+}
+
+.image {
+    border-radius: 12px; /* Equivalent to Tailwind's rounded-xl */
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    font-size: 1.25rem; /* Equivalent to Tailwind's text-xl */
+    font-weight: bold; /* Equivalent to Tailwind's font-bold */
+    color: #111827; /* Tailwind's text-gray-900 for better contrast */
+}

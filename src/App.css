@@ -1,0 +1,26 @@
+.hero {
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of child elements */
+  justify-content: space-between; /* Space between child elements */
+  background-color: #cbd5e0; /* Tailwind gray-400 equivalent */
+}
+
+.main2 {
+  width: 100%; /* Full width */
+  display: block; /* Block-level element */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero {
+    justify-content: center; /* Center content for tablet screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    flex-direction: column; /* Stack items vertically for mobile screens */
+    justify-content: flex-start; /* Align items at the top */
+  }
+}

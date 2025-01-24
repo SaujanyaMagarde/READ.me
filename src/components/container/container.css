@@ -1,0 +1,35 @@
+/* Card Styles */
+.cont {
+    width: 100%; /* Full width */
+    max-width: 80rem;
+    height: auto; /* Equivalent to max-w-7xl in Tailwind (1280px) */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    padding-left: 1rem; /* Equivalent to px-4 in Tailwind (16px) */
+    padding-right: 1rem; /* Equivalent to px-4 in Tailwind (16px) */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 1024px) {
+    .cont {
+      padding-left: 0.75rem; /* Reduce padding for smaller screens */
+      padding-right: 0.75rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .cont {
+      padding-left: 0.5rem; /* Further reduce padding for tablets */
+      padding-right: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cont {
+      padding-left: 0.25rem; /* Minimum padding for mobile */
+      padding-right: 0.25rem;
+    }
+  }
+  
+  

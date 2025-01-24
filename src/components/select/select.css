@@ -1,0 +1,43 @@
+select {
+    width: 200px; /* Adjust width as per your design */
+    padding: 10px; /* Space inside the dropdown */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    background-color: #f9f9f9; /* Background color */
+    color: #333; /* Text color */
+    outline: none; /* Remove default outline */
+    cursor: pointer; /* Pointer cursor */
+    transition: border 0.3s ease-in-out; /* Smooth border color transition */
+  }
+  
+  /* Hover effect for the select element */
+  select:hover {
+    border-color: #007BFF; /* Change border color on hover */
+  }
+  
+  /* Focus effect for the select element */
+  select:focus {
+    border-color: #0056b3; /* Change border color on focus */
+    background-color: #e9f5ff; /* Change background color on focus */
+  }
+  
+  /* Styling for the option elements */
+  select option {
+    padding: 10px; /* Space inside the option */
+    font-size: 16px; /* Font size for options */
+  }
+
+  label {
+    display: block; /* Make label a block element to stack it above the select */
+    margin-bottom: 8px; /* Space between the label and the select dropdown */
+    font-size: 18px; /* Font size for the label */
+    font-weight: bold; /* Make label text bold */
+    color: #333; /* Label text color */
+    font-family: Arial, sans-serif; /* Font family for the label */
+  }
+  
+  /* Optional: Styling for label when focused (if the label is linked to the select element) */
+  label:focus-within {
+    color: #007BFF; /* Change text color when the select is focused */
+  }

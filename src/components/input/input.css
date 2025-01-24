@@ -1,0 +1,65 @@
+/* Base styling for the container holding label and input */
+.input-container {
+    width: 100%; /* Full width of the parent container */
+    margin-bottom: 0.2rem; /* Margin between input fields */
+  }
+  
+  /* Label styling */
+  .input-container label {
+    display: inline-block;
+    margin-bottom: 0.2rem; /* Space between label and input */
+    font-size: 0.875rem; /* Small text size for the label */
+    color: #4b5563; /* Dark gray color for text */
+  }
+  
+  /* Input field base styling */
+  .input-container .input-field {
+    width: 100%; /* Make input take full width */
+    padding: 0.75rem 1rem; /* Adequate padding for better clickability */
+    border-radius: 0.5rem; /* Rounded corners for input */
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Text color */
+    border: 1px solid #d1d5db; /* Light border color */
+    transition: all 0.2s ease-in-out; /* Smooth transition for border and background */
+  }
+  
+  /* Input field focus state */
+  .input-container .input-field:focus {
+    background-color: #f9fafb; /* Light gray background when focused */
+    border-color: #3b82f6; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Error message styling */
+  .input-container .error {
+    color: #ef4444; /* Red color for error messages */
+    font-size: 0.875rem; /* Small font for error text */
+    margin-top: 0.5rem; /* Space above error message */
+  }
+  
+  /* Responsive styling for tablets (max-width: 768px) */
+  @media (max-width: 768px) {
+    .input-container {
+      margin-bottom: 1.25rem; /* Reduced space between fields */
+    }
+  
+    .input-container label {
+      font-size: 0.75rem; /* Smaller font for label on tablet screens */
+    }
+  
+    .input-container .input-field {
+      padding: 0.5rem 0.75rem; /* Less padding on smaller screens */
+    }
+  }
+  
+  /* Responsive styling for smaller devices (max-width: 480px) */
+  @media (max-width: 480px) {
+    .input-container label {
+      font-size: 0.7rem; /* Even smaller font on very small screens */
+    }
+  
+    .input-container .input-field {
+      padding: 0.5rem 0.5rem; /* Further reduced padding for smaller devices */
+    }
+  }
+  

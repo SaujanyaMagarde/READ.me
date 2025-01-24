@@ -1,0 +1,21 @@
+/* Logout Button Styles */
+.logout-btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px; /* Fully rounded */
+  background-color: transparent;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #bfdbfe; /* Light blue background */
+  color: #1e40af; /* Dark blue text */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 480px) {
+  .logout-btn {
+    padding: 0.3rem 0.8rem; /* Further reduced padding for mobile */
+    font-size: 0.75rem; /* Smaller font for mobile */
+  }
+}

@@ -1,0 +1,64 @@
+/* Container for the post */
+.post-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Wrapper for the image and controls */
+  .post-image-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1rem;
+  }
+  
+  /* Featured image styles */
+  .post-image {
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Controls (Edit/Delete buttons) */
+  .post-controls {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* Title wrapper */
+  .post-title-wrapper {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Post title */
+  .post-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Post content styles */
+  .post-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .post-title {
+      font-size: 1.25rem;
+    }
+  
+    .post-content {
+      font-size: 0.95rem;
+    }
+  }
+  
